@@ -1,216 +1,76 @@
-let studentName = "Naveen";
-let studentAge = 18;
-let studentCourse = "MERN Stack";
+// let studentName = "Naveen";
+// let studentAge = 18;
+// let studentCourse = "MERN Stack";
 
-console.log(studentName);
-console.log(studentAge);
-console.log(studentCourse);
+// console.log(studentName);
+// console.log(studentAge);
+// console.log(studentCourse);
 
 
 
 
-var company = "Stackly";
-let salary = 20000;
-const country = "India";
-company = "Google";
-salary = 30000;
-console.log(company);
-console.log(salary);
-console.log(country);
+// var company = "Stackly";
+// let salary = 20000;
+// const country = "India";
+// company = "Google";
+// salary = 30000;
+// console.log(company);
+// console.log(salary);
+// console.log(country);
 
 
 
 
-let userName = prompt("What is your name?");
+// let userName = prompt("What is your name?");
 
-console.log("Welcome " + userName);
+// console.log("Welcome " + userName);
 
 
-let result = confirm("Do you know JavaScript?");
+// let result = confirm("Do you know JavaScript?");
 
-console.log(result);
+// console.log(result);
 
 
-let stdName = prompt("Enter Std Name:");
-let stdAge = prompt("Enter Std Age:");
-let studentCity = prompt("Enter Student City:");
+// let stdName = prompt("Enter Std Name:");
+// let stdAge = prompt("Enter Std Age:");
+// let studentCity = prompt("Enter Student City:");
 
-console.log("Name : " + stdName);
-console.log("Age : " + stdAge);
-console.log("City : " + studentCity);
+// console.log("Name : " + stdName);
+// console.log("Age : " + stdAge);
+// console.log("City : " + studentCity);
 
-let course = "JavaScript";
+// let course = "JavaScript";
 
-alert("Welcome to " + course);
+// alert("Welcome to " + course);
 
-document.writeln("Hello Student");
-document.writeln("<br>");
-document.writeln("Welcome to JavaScript");
+// document.writeln("Hello Student");
+// document.writeln("<br>");
+// document.writeln("Welcome to JavaScript");
 
-let favoriteFood = "Chicken Biryani";
-let favoriteColor = "Black";
-let favoriteMovie = "Leo";
+// let favoriteFood = "Chicken Biryani";
+// let favoriteColor = "Black";
+// let favoriteMovie = "Leo";
 
-console.log("Food : " + favoriteFood);
-console.log("Color : " + favoriteColor);
-console.log("Movie : " + favoriteMovie);
+// console.log("Food : " + favoriteFood);
+// console.log("Color : " + favoriteColor);
+// console.log("Movie : " + favoriteMovie);
 
-let name = "Naveen";
-let age = 18;
-let phone = "987657857";
-let email = "naveen9065@gmail.com";
+// let name = "Naveen";
+// let age = 18;
+// let phone = "987657857";
+// let email = "naveen9065@gmail.com";
 
-console.log("Name : " + name);
-console.log("Age : " + age);
-console.log("Phone : " + phone);3
-console.log("Email : " + email);
+// console.log("Name : " + name);
+// console.log("Age : " + age);
+// console.log("Phone : " + phone);3
+// console.log("Email : " + email);
 
 
 
-let name1 = prompt("Enter your name:");
-let course1 = prompt("Enter your course:");
+// let name1 = prompt("Enter your name:");
+// let course1 = prompt("Enter your course:");
 
-alert("Hello " + name + ", Welcome to " + course + " Course");
+// alert("Hello " + name + ", Welcome to " + course + " Course");
 
 
 
-let marks = 75;
-
-let result = (marks >= 35) ? "Pass" : "Fail";
-
-let grade = (marks >= 90) ? "Grade A" :
-            (marks >= 75) ? "Grade B" :
-            (marks >= 60) ? "Grade C" :
-            "No Grade";
-
-console.log("Marks:", marks);
-console.log("Result:", result);
-console.log("Grade:", grade);
-
-
-
-let salary = 25000;
-let bonus = salary * 0.10;
-let finalSalary = salary + bonus;
-
-console.log("Original Salary :", salary);
-console.log("Bonus :", bonus);
-console.log("Final Salary :", finalSalary);
-
-
-
-let email = "admin@gmail.com";
-let password = "12345";
-
-if (email === "admin@gmail.com" && password === "12345") {
-    console.log("Login Success");
-} else {
-    console.log("Login Failed");
-}
-
-
-
-let price = 2000;
-let discount = (price > 1000) ? price * 0.20 : 0;
-let finalAmount = price - discount;
-console.log("Original Price :", price);
-console.log("Discount :", discount);
-console.log("Final Amount :", finalAmount);
-
-
-
-let products = ["Laptop", "Mobile", "Mouse", "Keyboard"];
-console.log("First Product :", products[0]);
-console.log("Last Product :", products[products.length - 1]);
-console.log("Total Products :", products.length);
-
-
-
-let employee = {
-    name: "Naveen",
-    department: "Development",
-    salary: 30000
-};
-console.log(employee);
-console.log("Employee Name :", employee.name);
-console.log("Salary :", employee.salary);
-
-
-
-let shirt = 500;
-let pant = 1000;
-let shoe = 1500;
-let totalBill = shirt + pant + shoe;
-let discount1 = totalBill * 0.10;
-let finalAmount1 = totalBill - discount;
-console.log("Total Bill :", totalBill);
-console.log("Discount1 :", discount1);
-console.log("Final Amount1 :", finalAmount1);
-
-
-let age = 19;
-
-if (age >= 18) {
-    console.log("Eligible for Voting");
-} else {
-    console.log("Not Eligible");
-}
-
-
-
-let a = 10;
-
-console.log("Initial Value :", a);
-
-a++;
-console.log("After a++ :", a);
-
-++a;
-console.log("After ++a :", a);
-
-a--;
-console.log("After a-- :", a);
-
---a;
-console.log("After --a :", a);
-
-
-
-let isPresent = true;
-let completedTask = true;
-
-
-if (isPresent && completedTask) {
-    console.log("Eligible for Salary");
-} else {
-    console.log("Not Eligible");
-}
-
-
-
-
-let employee1 = {
-    id: 101,
-    name: "John",
-    department: "Development",
-    salary: 35000,
-    experience: 2
-};
-
-
-console.log("Employee ID :", employee.id);
-console.log("Employee Name :", employee.name);
-console.log("Department :", employee.department);
-console.log("Salary :", employee.salary);
-console.log("Experience :", employee.experience, "Years");
-
-
-let bonus1 = employee.salary * 0.10;
-let finalSalary1 = employee.salary + bonus;
-
-console.log("\nBonus :", bonus);
-console.log("Final Salary :", finalSalary);
-
-let performanceStatus = (employee.experience >= 2) ? "Good" : "Average";
-
-console.log("\nPerformance Status :", performanceStatus);
