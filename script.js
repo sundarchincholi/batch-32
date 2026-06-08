@@ -71,3 +71,4 @@ let name1 = prompt("Enter your name:");
 let course1 = prompt("Enter your course:");
 
 alert("Hello " + name + ", Welcome to " + course + " Course");
+j
