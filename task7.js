@@ -1,4 +1,4 @@
-// Task 1: Traffic Signal Management
+
 
 let signalColor = prompt("Enter Signal Color (Red, Yellow, Green):");
 
@@ -190,11 +190,11 @@ let employees = [
     {name:"Ajay", salary:40000}
 ];
 
-// Highest to Lowest
+
 employees.sort((a, b) => b.salary - a.salary);
 console.log(employees);
 
-// Lowest to Highest
+
 employees.sort((a, b) => a.salary - b.salary);
 console.log(employees);
 let movies = ["Leo", "Jailer", "Vikram", "Master"];
