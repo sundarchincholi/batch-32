@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(135deg, #1a1a2e, #16213e, #0f3460);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#heading1 {
+    text-align: center;
+    font-size: 38px;
+    text-decoration: underline;
+    text-decoration-color: orange;
+    margin-top: 15px;
+    color: white;
+    letter-spacing: 2px;
+}
+
+.div1 {
+    margin: 25px;
+    padding: 25px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.div1>div {
+    width: 280px;
+    height: auto;
+    background-color: rgb(100, 160, 210);
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    gap: 15px;
+    padding: 25px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.div1>div>h1 {
+    font-size: 18px;
+    text-align: center;
+    font-weight: 600;
+    color: #1a1a2e;
+}
+
+.div1>div>img {
+    width: 130px;
+    height: 130px;
+    background-color: white;
+    border-radius: 50%;
+    box-shadow: 3px 3px 8px rgba(0,0,0,0.4);
+}
+
+/* FIX: properly scoped */
+.div1>div>h2,
+.div1>div>p {
+    text-align: center;
+    color: #f0f0f0;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: #e94560;
+    cursor: pointer;
+    color: white;
+    margin-left: 10%;
+    font-weight: bold;
+    letter-spacing: 1px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #c73652;
+    box-shadow: 0px 4px 12px rgba(233, 69, 96, 0.5);
+    transform: scale(1.05);
+    padding: 10px 20px;
+    font-size: 14px;
+}
+
+.div1>div:hover {
+    background-color: rgb(72, 130, 180);
+    box-shadow: 0px 8px 20px rgba(0,0,0,0.4);
+    cursor: pointer;
+    transform: translateY(-5px);
+}
+
+#heading2 {
+    text-align: end;
+    padding-right: 10%;
+    padding-top: 10px;
+}
+
+#heading2>button {
+    text-decoration: underline;
+    text-decoration-color: orange;
+    color: white;
+    cursor: pointer;
+    padding: 8px 16px;
+    border-radius: 8px;
+    background-color: #e94560;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+#category {
+    text-align: center;
+    margin-left: 9%;
+    background-color: #e94560;
+    color: white;
+    border-radius: 8px;
+    padding: 10px 16px;
+    font-weight: bolder;
+    font-size: 13px;
+    letter-spacing: 1px;
+    display: inline-block;
+}
+
+#heading3 {
+    text-align: center;
+    font-size: 38px;
+    text-decoration: underline;
+    text-decoration-color: orange;
+    margin-top: 15px;
+    color: white;
+    letter-spacing: 2px;
+}
+
+.cart {
+    margin: 25px;
+    padding: 25px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.cart>div {
+    width: 280px;
+    height: auto;
+    background-color: rgb(80, 170, 130);
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    gap: 15px;
+    padding: 25px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.cart>div>h1 {
+    font-size: 18px;
+    text-align: center;
+    font-weight: 600;
+    color: #1a1a2e;
+}
+
+.cart>div>img {
+    width: 130px;
+    height: 130px;
+    background-color: white;
+    border-radius: 50%;
+    box-shadow: 3px 3px 8px rgba(0,0,0,0.4);
+}
+
+/* FIX: properly scoped */
+.cart>div>h2,
+.cart>div>p {
+    text-align: center;
+    color: #f0f0f0;
+}
+
+.cart>div:hover {
+    background-color: rgb(50, 140, 100);
+    box-shadow: 0px 8px 20px rgba(0,0,0,0.4);
+    cursor: pointer;
+    transform: translateY(-5px);
+}
+
+#cartCount {
+    margin-left: 10%;
+    font-size: 28px;
+    font-weight: bold;
+    background-color: #e94560;
+    width: fit-content;
+    border-radius: 8px;
+    color: white;
+    padding: 15px 25px;
+    letter-spacing: 1px;
+}
